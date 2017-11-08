@@ -15,3 +15,5 @@ const ageIsValid = Number.isInteger(currentAge);
 const randomNumber = Math.floor(Math.random() * 20) + 0;
 
 const randomInteger = Math.floor(randomNumber);
+
+const randomUseID = randomInteger + 1000000000;
